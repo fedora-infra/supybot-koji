@@ -88,7 +88,7 @@ class Koji(callbacks.Plugin):
 
         Return the total load average of the build system."""
         k = self.koji_client
-        hosts = hosts = k.listHosts()
+        hosts = k.listHosts()
         total = 0
         load = 0
         for host in hosts:
@@ -118,7 +118,7 @@ class Koji(callbacks.Plugin):
 
         Check the status of the builders."""
         k = self.koji_client
-        hosts = hosts = k.listHosts()
+        hosts = k.listHosts()
         total = 0
         ready = 0
         enabled = 0

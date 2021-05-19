@@ -45,7 +45,7 @@ Koji = conf.registerPlugin('Koji')
 # conf.registerGlobalValue(Koji, 'someConfigVariableName',
 #     registry.Boolean(False, """Help for someConfigVariableName."""))
 conf.registerGlobalValue(Koji, 'server',
-    registry.String('http://koji.fedoraproject.org/kojihub',
+    registry.String('https://koji.fedoraproject.org/kojihub',
                     '''Koji server to use'''))
 
 
