@@ -35,9 +35,8 @@ import supybot
 import supybot.world as world
 import importlib
 
-# Use this for the version of this plugin.  You may wish to put a CVS keyword
-# in here if you're keeping the plugin in CVS or some similar system.
-__version__ = "0.1"
+# Use this for the version of this plugin.
+__version__ = "0.3"
 
 # XXX Replace this with an appropriate author or supybot.Author instance.
 __author__ = supybot.Author('Mike McGrath', 'mmcgrath', 'mmcgrath@redhat.com')

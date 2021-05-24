@@ -37,7 +37,11 @@ install -pm 644 supybot_koji/*.py $RPM_BUILD_ROOT/%{python3_sitelib}/supybot/plu
 
 
 %changelog
-* Fri Feb 10 2017 Dennis Gilmore <dennis@ausil.us> - 0.2-12
+* Mon May 24 2021 Ryan Lerch <rlerch@redhat.com> - 0.3-1
+- Change to Python 3
+- New 0.3 Release
+
+* Fri Feb 10 2017 Dennis Gilmore <dennis@ausil.us> - 0.2-2
 - clean up hosts = hosts = foo
 - set the server to use https:// by default
 
