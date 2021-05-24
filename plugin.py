@@ -34,7 +34,7 @@ from supybot.commands import *
 import supybot.plugins as plugins
 import supybot.ircutils as ircutils
 import supybot.callbacks as callbacks
-import urllib
+import urllib.request, urllib.parse, urllib.error
 import koji
 
 class Koji(callbacks.Plugin):
